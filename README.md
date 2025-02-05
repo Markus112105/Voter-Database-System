@@ -70,17 +70,17 @@ The list is used to efficiently group voters by age.
 - `insert(voter)` – Inserts a voter into the list at the proper age index.
 
 ## Code Testing Instructions
-This project includes a **test helper script** (`cp4_test_helper.sh`) to automate testing.
+This project includes a **test helper script** (`test_helper.sh`) to automate testing.
 
 ### **Running Tests**
-1. Copy `cp4_test_helper.sh` and `interaction.exp` to the same directory as your executable.
+1. Copy `test_helper.sh` and `interaction.exp` to the same directory as your executable.
 2. Navigate to the executable directory:
    ```bash
    cd <path_to_executable>
    ```
 3. Run a test case:
    ```bash
-   bash cp4_test_helper.sh ./<executable> <testcase-number>
+   bash test_helper.sh ./<executable> <testcase-number>
    ```
 4. Compare your program's output with the EXPECTED OUTPUTS.
    The output doesn't have to match exactly, but it should be close.
